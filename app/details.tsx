@@ -6,6 +6,9 @@ export default function Details() {
   const params =useLocalSearchParams();
 
 console.log(params);
+
+useEffect(() => {}, []);
+
   return (
     <ScrollView
     contentContainerStyle={{
